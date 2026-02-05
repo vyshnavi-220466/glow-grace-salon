@@ -1,0 +1,371 @@
+.body{
+    background-color: white;
+    
+}
+
+.header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-bottom: #f7c6d0;
+    /*height: 70px;*/
+    align-items: center;
+    background-color: white;
+    max-width: 1500px;
+    width:100%;
+}
+header a{
+    color: #333333;
+    font-size: 17px;
+    margin-left: 28px;
+    text-decoration: none;
+    font-weight: 500;
+}
+header a:hover{
+    color: #d98ca3;
+}
+.main{
+    width: 100%;
+}
+.div{
+    min-height: 70vh;
+    background: linear-gradient(to bottom,#e8b7c8,#f7d9e5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+.heading{
+    font-size: 42px;
+    margin-bottom: 15px;
+
+}
+.para{
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    border: none;
+    border-radius: 6px;
+    padding: 12px 22px;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.button1{
+    background-color: #d94f7a;
+}
+.button{
+    background-color: #caa0b3;
+}
+.introdiv{
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+.heading1{
+    font-size: 28px;
+    color: #b85c85;
+    margin-bottom: 15px;
+}
+.text{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.footer{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    width: 100%;
+
+}
+div{
+    padding: 60px 80px;
+    
+}
+
+.services{
+    background-color: white;
+    color: #d98ca3;
+    margin-top: 40px;
+}
+.card1{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    
+}
+.card1 div{
+    width: 130px;
+    height:150px;
+    background-color:white;
+    border:solid 1px #f2a7bb;
+    max-width: 300px;
+    align-items: center;
+    /*width: 100%;*/
+
+    
+    
+}
+.card1 h3{
+    color:#333;
+    width: 170px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.card1 p{
+    color: #555;
+    width: 180px;
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+main{
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 0 20px;
+}
+.about{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.paras{
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: center;
+}
+.image{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+.list{
+    max-width: 600px;
+    margin: 0 auto 60px auto;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.list li{
+    margin-bottom: 10px;
+}
+.contact{
+    background-color: #f5f5f5;
+    color: #d98ca3;
+}
+.form{
+    margin: 60px auto;
+    background-color:#fff7fa;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0,0.08);
+
+    max-width: 500px;
+}
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #333;
+
+}
+.name{
+    margin-left: 20px;
+    border: 1px solid #b76e79;
+    color: #333;
+    border-radius: 6px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    
+}
+.msg{
+    
+    border: 1px solid #c9a3b1;
+    border-radius: 6px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+.submit{
+    margin-top: 10px;
+    background-color: #b76e79;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.submit:hover{
+    background-color: #8b3a62;
+    transition: 0.3s;
+
+}
+
+@media(max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+    .header img{
+        width: 60px;
+        height: 60px;
+    }
+    .header a{
+        display: block;
+        padding: 5px 0;
+        font-size: 16px;
+    }
+    main{
+        padding: 15px;
+    }
+    h1.about{
+        font-size: 24px;
+        text-align: center;
+    }
+    p.paras{
+        font-size: 15px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+        height: auto;
+        margin: 15px 0;
+    }
+    .list{
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .footer{
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        margin-top:0px;
+        margin: 0;
+        width: 100%;
+    }
+    .card1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1 div{
+        width: 90%;
+        max-width: 90%;
+        height: auto;
+    }
+    .card1 h3,.card1 p{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width:600px){
+    .header{
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+    .header a{
+        font-size: 16px;
+        display: block;
+    }
+    .main{
+        padding: 15px;
+    }
+    .h1{
+        font-size: 22px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+    .p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .hero-buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .button{
+        width: 220px;
+        font-size: 18px;
+        /*margin:20px auto;*/
+        margin-left:20px ;
+        display: block;
+    }
+    .button1{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 220px;
+        display: block;
+    }
+    .text{
+        width: 280px;
+        padding: 0;
+        margin: 0;
+    }
+    .heading1{
+        width:350px;
+        padding: 0;
+        margin: 0;
+    }
+    .para{
+        padding: 0;
+        margin: 0;
+    }
+    
+}
