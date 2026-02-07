@@ -1,13 +1,25 @@
 #Salon Website
-A fully responsive salon website built using HTML,CSS and JAVAScript.
-##Live Demo
+
+A responsive salon website built using HTML,CSS and JAVAScript.
+Designed to work smoothly on both desktop and mobile devices.
+
+---
+##Live Website
  https://vyshnavi-220466.github.io/glow-grace-salon/
- ##Features
- -Resposive design(mobile & desktop)
- -Services section with cards
- -Contact page with form validation
- -Clean UI and navigation
- ##Tech Stack
- -HTML
+
+
+ ---
+ ##Technologies Used
+ -HTML5
  -CSS
  -JAVAScript
+
+ ---
+ ##Features
+ -Responsive design(Desktop & Mobile)
+ -Home,About,Services,Contact pages
+ -Interactive contact form
+ -Clean and modern UI
+
+
+ 
