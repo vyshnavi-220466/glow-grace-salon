@@ -22,4 +22,35 @@ Designed to work smoothly on both desktop and mobile devices.
  -Clean and modern UI
 
 
+---
+##Screenshots
+###Desktop View
+**Home Page**
+![Home Desktop](images/screenshots/home_desktop.png.png)
+
+**About Page**
+![About Desktop](images/screenshots/about_desktop.png.png)
+
+**Services Page**
+![Services Desktop](images/screenshots/services_desktop.png.png)
+
+**contact Page**
+![Contact Desktop](images/screenshots/contact_desktop.png.png)
+
+---
+###Mobile View
+**Home Page**
+![Home Mobile](images/screenshots/home_mobile.png.png)
+
+**About Page**
+![About Mobile](images/screenshots/about_mobile.png.png)
+
+**Services Page**
+![services Mobile](images/screenshots/services_mobile.png.png)
+
+**Contact Page**
+![Contact Mobile](images/screenshots/contact_mobile.png.png)
+
+
+
  
