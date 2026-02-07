@@ -39,17 +39,23 @@ Designed to work smoothly on both desktop and mobile devices.
 
 ---
 ###Mobile View
-**Home Page**
-![Home Mobile](images/screenshots/home_mobile.png.png)
+<p align="center">
+<img src="images/screenshots/home_mobile.png.png" width="300" />
+</p>
 
-**About Page**
-![About Mobile](images/screenshots/about_mobile.png.png)
 
-**Services Page**
-![services Mobile](images/screenshots/services_mobile.png.png)
+<p align="center">
+<img src="images/screenshots/about_mobile.png.png" width="300" />
+</p>
 
-**Contact Page**
-![Contact Mobile](images/screenshots/contact_mobile.png.png)
+<p align="center">
+<img src="images/screenshots/services_mobile.png.png" width="300" />
+</p>
+
+<p align="center">
+<img src="images/screenshots/contact_mobile.png.png" width="300" />
+</p>
+
 
 
 
